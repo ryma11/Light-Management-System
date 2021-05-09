@@ -1,0 +1,52 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll"
+    },
+    "dependencies": {
+        "@syncfusion/ej2-vue-dropdowns": "^18.4.43",
+        "laravel-vue-pagination": "^2.1.0",
+        "vee-validate": "^3.4.5",
+        "vform": "^1.0.1",
+        "vue-cookies": "^1.7.4",
+        "vue-select": "^3.11.2",
+        "vue-sweetalert2": "^3.0.6",
+        "vue2-datepicker": "^3.6.1",
+        "vuejs-datepicker": "^1.6.2",
+        "vuelidate": "^0.7.5",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "axios": "^0.19",
+        "bootstrap": "4.3.1",
+        "bootstrap-vue": "2.0.0-rc.15",
+        "chart.js": "2.8.0",
+        "core-js": "2.6.5",
+        "cross-env": "^5.1",
+        "flatpickr": "4.5.7",
+        "jquery": "^3.2",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.5",
+        "node-sass": "^4.12.0",
+        "nouislider": "13.1.4",
+        "popper.js": "^1.12",
+        "register-service-worker": "1.6.2",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.19.0",
+        "sass-loader": "^7.1.0",
+        "vue": "2.6.6",
+        "vue-chartjs": "3.4.2",
+        "vue-cli-plugin-vuetify": "~2.0.7",
+        "vue-clipboard2": "0.3.0",
+        "vue-flatpickr-component": "8.1.2",
+        "vue-router": "3.0.1",
+        "vue-template-compiler": "2.6.6",
+        "vue2-transitions": "0.3.0"
+    }
+}
